@@ -9,6 +9,8 @@
     <script>
         if('serviceWorker' in navigator ){
             window.addEventListener("load", ()=>navigator.serviceWorker.register("./sw.js"), {scope: "/tasker-o-matic-3000/"})
+        }else{
+          console.error("could not do the action");
         }
     </script>
     <script src="./sw.js"></script>
@@ -35,7 +37,7 @@
         <p>by Haikal Isa Al Mahdi <br />
            Built with <a href="https://react.dev">React JS</a>, <a href="https://picocss.com">Pico CSS</a>, and <a href="https://github.com/developit/htm">HTM</a></p>
       </footer>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">    
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.5.10/css/pico.min.css">    
     <script type="module" src="./main.js"></script>
   </body>
 </html>
