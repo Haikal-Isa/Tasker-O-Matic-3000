@@ -8,10 +8,10 @@
     <title>Tasker-O-Matic 3000s</title>
     <script>
         if('serviceWorker' in navigator ){
-            window.addEventListener("load", ()=>navigator.serviceWorker.register("./sw.js"));
+            window.addEventListener("load", ()=>navigator.serviceWorker.register("./sw.js"), {scope: "/tasker-o-matic-3000/"})
         }
     </script>
-    <script src="sw.js"></script>
+    <script src="./sw.js"></script>
   </head>
 
   <body >
