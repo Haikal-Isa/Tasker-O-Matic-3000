@@ -5,8 +5,9 @@
   "background_color": "#259dfd",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/",
-  "start_url": "/tasker-o-matic-3000/",
+  "id": "/Tasker-O-Matic-3000/",
+  "scope": "/Tasker-O-Matic-3000/",
+  "start_url": "/Tasker-O-Matic-3000/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
