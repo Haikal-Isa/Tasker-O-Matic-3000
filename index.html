@@ -8,7 +8,7 @@
     <title>Tasker-O-Matic 3000s</title>
     <script>
         if('serviceWorker' in navigator ){
-            window.addEventListener("load", ()=>navigator.serviceWorker.register("/Tasker-O-Matic-3000/sw.js"), {scope: "/Tasker-O-Matic-3000/"})
+            navigator.serviceWorker.register("/Tasker-O-Matic-3000/sw.js", {scope: "/Tasker-O-Matic-3000/"})
         }
     </script>
   </head>
